@@ -7,5 +7,7 @@ public class InstanciaEmpleado {
 
         //acceder a un atributo public sin getter
         System.out.println(empleado1.nombre);
+
+        System.out.println("Salario: "+empleado1.getSalario());
     }
 }

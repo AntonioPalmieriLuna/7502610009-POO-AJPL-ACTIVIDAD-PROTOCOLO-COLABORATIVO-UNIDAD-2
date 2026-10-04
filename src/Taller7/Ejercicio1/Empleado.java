@@ -2,7 +2,7 @@ package Taller7.Ejercicio1;
 
 public class Empleado {
     String nombre;
-    float salario;
+    private float salario;
 
 
     public Empleado(String nombre,float salario){
@@ -24,7 +24,7 @@ public class Empleado {
 
     public void mostrarInfo(){
         System.out.println("Nombre: " + nombre+"\n"+
-                "Salario: " + salario);
+                "Salario: " + getSalario());
     }
 
 }
